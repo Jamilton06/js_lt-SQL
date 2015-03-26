@@ -13,7 +13,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
     </head>
-    
+    <h2>Datos Actualizados correctamente</h2>
    <sql:setDataSource
 var="ds"
 driver="org.apache.derby.jdbc.ClientDriver"

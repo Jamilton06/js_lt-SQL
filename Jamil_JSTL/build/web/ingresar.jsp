@@ -13,13 +13,13 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
     </head>
-    
+    <h2>Datos Ingresados correctamente</h2>
    <sql:setDataSource
-var="ds"
-driver="org.apache.derby.jdbc.ClientDriver"
-url="jdbc:derby://localhost:1527/sample"
-user="app"
-password="app"
+        var="ds"
+        driver="org.apache.derby.jdbc.ClientDriver"
+        url="jdbc:derby://localhost:1527/sample"
+        user="app"
+        password="app"
 />
    
    <sql:transaction dataSource="${ds}">
